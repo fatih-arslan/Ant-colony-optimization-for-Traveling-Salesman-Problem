@@ -27,7 +27,7 @@ alpha = 2.5 # the parameter that controls the influence of the pheromone trail o
 beta = 7 # the parameter that controls the influence of the distance between cities on the ant's decision-making process.
 evaporation_rate = 0.8
 Q = 100 # the parameter that controls the amount of pheromone that an ant deposits on the trail after completing a tour.
-with open("C:/Users/Fatih/Desktop/tsp/uygulama dosyaları/tsp_124_1.txt", "r") as file:
+with open("files/tsp_5_1", "r") as file:
     n = int(file.readline().strip())
     cities = []
     for i in range(n):
